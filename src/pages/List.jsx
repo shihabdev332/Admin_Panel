@@ -80,7 +80,7 @@ const List = ({ token }) => {
 
         {/* Content Section */}
         {list?.length > 0 ? (
-          <div className="bg-white rounded-[2rem] border border-gray-100 shadow-sm overflow-hidden">
+          <div className="bg-white rounded-[2rem] border border-gray-300 shadow-xl overflow-hidden">
             
             {/* Desktop Table Header (Hidden on Mobile) */}
             <div className="hidden md:grid grid-cols-[0.8fr_3fr_1.5fr_1.2fr_1.5fr] items-center py-5 px-8 bg-gray-50/50 border-b border-gray-100 text-[11px] font-bold uppercase tracking-widest text-gray-400">
